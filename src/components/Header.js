@@ -7,10 +7,11 @@ const Header = props =>{
     <React.Fragment>
         <header >
             <ul className={classes.header}>
-                <li >Home</li>
-                <li >About US</li>
-                <li >Contact US</li>
-                <li >Blog</li>
+                <li><a href="http://localhost:3000/">Home</a></li>
+                <li><a href="http://localhost:3000/">About US</a></li>
+                <li><a href="http://localhost:3000/">Contact US</a></li>
+                <li><a href="http://localhost:3000/">Blog</a></li>
+                           
             </ul>
         </header>
     </React.Fragment>
